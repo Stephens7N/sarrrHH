@@ -1,0 +1,106 @@
+body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            overflow-x: hidden;
+        }
+        header {
+            background: url('') no-repeat center center/cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            position: relative;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.4);
+        }
+        header h1 {
+            position: relative;
+            font-size: 4em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin: 0;
+        }
+        header p {
+            position: relative;
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-weight: 300;
+        }
+        .intro-section {
+            background-color: #ffffff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .intro-section h2 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .intro-section p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .image-container {
+            position: relative;
+            margin-bottom: 40px;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .cta-button {
+            background-color: #0056b3;
+            color: white;
+            padding: 15px 40px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        
+
+.ss {
+            margin: 40px;
+    border-collapse: collapse;
+}
+
+
+    
+.lola {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+    
+.hh {
+            border: 3px solid black;
+            width: 80%;
+            text-align: center;
+            font-size: 7px;
+            padding: 10px;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+}
+
+.hh:hover {
+    background-color: blueviolet;
+}

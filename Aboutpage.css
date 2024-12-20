@@ -1,0 +1,73 @@
+body {
+    background-image: url("https://scontent.fdvo2-2.fna.fbcdn.net/v/t39.30808-6/467461759_1033851042090178_7229173814431169143_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeHOQbNjXTLts-CSKQd2eW7OxK_skOCKwdvEr-yQ4IrB2x4ZrX9qmtuBIW7MkjGEL_1IcAFCdvfCfsRq7akPwBgf&_nc_ohc=R1TiVbrX6O4Q7kNvgHb_gZZ&_nc_zt=23&_nc_ht=scontent.fdvo2-2.fna&_nc_gid=AQEcDpI0WHQYrGvOfDxDAFG&oh=00_AYCwRTsbKwioeppk4PB7buRw0qDFFZdf0rVuctI_b0HC_A&oe=67670105");
+   background-size: 50%;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+.galon {
+    width: 30%;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-style: groove;
+    background-image: url("https://img.freepik.com/free-vector/halloween-cobweb-background-style_23-2148626623.jpg?t=st=1734414243~exp=1734417843~hmac=e390e56d73439f7d65d0486077de8d86c2a3dc6f6e1606d328862ef12d9b0a13&w=900");
+}
+
+.ulo {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: greenyellow;
+}
+
+p {
+    color: red;
+}
+
+
+.nawong {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+
+.hh {
+            border: 3px solid black;
+            text-align: center;
+            font-size: 10px;
+            padding: 15px;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.ss {
+            margin: 50px;
+    border-collapse: collapse;
+    
+}
+
+.j {
+    text-align: center;
+    color: blueviolet;
+    font-size: 80px;
+    
+}
+    
+.lola {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hh:hover {
+    background-color: blueviolet; 
+}

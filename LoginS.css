@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+
+}
+
+.log {
+   justify-content: left;
+    padding: 20px, 100px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px black;
+    overflow: hidden;
+    height: 85%;
+    background-image: url("https://scontent.fdvo2-1.fna.fbcdn.net/v/t39.30808-6/467651123_1033852518756697_3239567794653682579_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeGAO4vtPhKu6czVTX0luu30r4xi9sZmgJqvjGL2xmaAmrGosTyA-ncL2nb5hYtdYYXMTn_vqCT0s1ydyFIC7jZl&_nc_ohc=MfT-Rf-CzY0Q7kNvgFXMpiJ&_nc_zt=23&_nc_ht=scontent.fdvo2-1.fna&_nc_gid=AnH5f54UfUlkm3TR14mPu1P&oh=00_AYBfsiw6EQ9CRPp7x5I2AwWE_XS4d5rdU5AoTP9n84EPVw&oe=6766D152");
+   background-size: 650px;
+   width: 400px;
+   
+
+    
+  
+}
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: right;
+    
+
+    
+}
+ .mm {
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 7px;
+    color: black;
+    font-weight: bolder;
+    width: 100%;
+    margin-top: 10px;
+    font-family: Elephant;
+ }
+ .mm:hover{background-color: greenyellow;}
+ 
+ input {
+    background: whitesmoke ;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color:black;
+ }
+
+
+body {
+      
+      overflow: hidden;
+      background: linear-gradient(65deg, red, white, blue, black);
+      background-size: 500% 500%;
+      animation: gradientAnimation 7s ease infinite;
+    
+    }
+
+
+@keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .kl {
+         color: whitesmoke;
+       
+        }
+
+        .LL {
+            text-align: center;
+            width: 40px;
+            font-size: 200px;
+        }
+
+        .hh {
+            color: #ecf0f1;
+            font-size: 4em;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            text-align: center; 
+           
+        }
+
+       
+
+        
+        h1 {
+            background: linear-gradient(45deg, #3498db, #9b59b6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            animation: text-shadow-animate 3s ease-in-out infinite alternate;
+            font-size: 140PX;
+            
+            justify-content: right;
+        }
+
+        
+        @keyframes text-shadow-animate {
+            0% {
+                text-shadow: 0 0 5px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.3);
+            }
+            100% {
+                text-shadow: 0 0 15px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.5);
+            }
+        }

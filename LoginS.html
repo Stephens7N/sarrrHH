@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="LoginS.css">
+<head>
+    
+    <script>
+        function Login()
+    {
+    var username = document.getElementById("user").value;   
+    var password = document.getElementById("pass").value;
+    if(username=="Devuuu"&& password=="N77H1&2")    
+    {
+        location.href="Aboutpage.html";
+    }
+    else
+    {
+        alert("DILE MAO!")
+    }
+}
+function showpass(checkbox)
+{
+    var username = document.getElementById("user");
+    var password = document.getElementById("pass");
+    if(checkbox.checked==true)
+{
+    password.setAttribute("type", "text");
+}
+else
+{
+    password.setAttribute("type", "password");
+}
+}
+    </script>
+    </head>
+    <body>
+        <div class="log">
+            <h2 class="hh">LOGIN</h2>
+            <div class="inputs">
+                <input id="user" type="text" placeholder="username">
+                <input id="pass" type="password" placeholder="password">
+                <div class="kl"><input type="checkbox" onclick="showpass(this)">
+                  show password
+                   
+            </div>
+            <button class="mm" onclick="Login()">LOGIN</button>
+        </div>
+        </div>
+        <body>
+            <div class="background"></div>
+            <h1>LUX <br> &nbsp;  &nbsp;MUNDIS<br> &nbsp; &nbsp; &nbsp; CUP <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2024</h1>
+        </body>
+        </html>
